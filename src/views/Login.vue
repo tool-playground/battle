@@ -6,7 +6,7 @@
       <div class="form">
         <el-input
           v-model="id"
-          placeholder="xjh22222228/battle"
+          placeholder="jasonkayzk/blog_static"
           class="mb20"
         >
           <template #prepend>&nbsp;&nbsp;&nbsp;I D&nbsp;&nbsp;</template>
@@ -59,8 +59,8 @@ export default defineComponent({
   name: 'Login',
 
   setup() {
-    const id = ref('')
-    const branch = ref('main')
+    const id = ref('jasonkayzk/blog_static')
+    const branch = ref('master')
     const token = ref('')
     const loading = ref(false)
     const valid = computed<boolean>(() => {
